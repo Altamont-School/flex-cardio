@@ -1,0 +1,129 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;900&display=swap");
+
+/* Basic stylings - DONT CHANGE ANYTHING BETWEEN THIS AND THE NEXT COMMENT */
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.heading h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.problem {
+  min-height: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.problem-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 40px;
+  border-left: solid 4px tomato;
+  padding-left: 1rem;
+}
+
+.instructions {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.primary {
+  background-color: #ffda08;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: auto;
+}
+
+/* YOU CAN START YOUR WORK BELOW HERE */
+
+.problem-1 img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.problem-1 {
+  display: flex;
+  align-items: center;
+}
+
+.problem-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.problem-2 img {
+  width: 25%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.problem-5 {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+  margin-right: 20px;
+  min-height: 100%;
+}
+
+.item img {
+  border-radius: 5px;
+}
+
+.person {
+  display: flex;
+  background: tomato;
+  padding: 20px;
+  border-radius: 5px;
+  align-items: center;
+  color: white;
+  margin: 20px;
+}
+
+.person img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.problem-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
