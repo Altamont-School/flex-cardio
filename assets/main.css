@@ -61,69 +61,34 @@ img {
 /* YOU CAN START YOUR WORK BELOW HERE */
 
 .problem-1 img {
-  width: 100px;
-  height: auto;
-  border-radius: 50%;
-  margin-right: 20px;
 }
 
 .problem-1 {
-  display: flex;
-  align-items: center;
 }
 
 .problem-2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.problem-2 img {
-  width: 25%;
-  height: auto;
-  margin-right: 20px;
-}
-
-.problem-5 {
-  display: flex;
-}
-
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: flex-start;
-  margin-right: 20px;
-  min-height: 100%;
-}
-
-.item img {
-  border-radius: 5px;
 }
 
 .person {
-  display: flex;
-  background: tomato;
-  padding: 20px;
-  border-radius: 5px;
-  align-items: center;
-  color: white;
-  margin: 20px;
 }
 
 .person img {
-  width: 100px;
-  height: auto;
-  border-radius: 50%;
-  margin-right: 20px;
-  border-radius: 5px;
 }
 
 .problem-3 {
-  display: flex;
-  flex-direction: column;
 }
 
 .details {
-  display: flex;
-  flex-direction: column;
+}
+
+.problem-2 img {
+}
+
+.problem-5 {
+}
+
+.item {
+}
+
+.item img {
 }
